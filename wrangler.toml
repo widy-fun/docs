@@ -1,0 +1,7 @@
+# wrangler.toml
+name = "widy-docs"
+compatibility_date = "2026-02-05"
+
+[assets]
+directory = "./build"
+not_found_handling = "single-page-application"
