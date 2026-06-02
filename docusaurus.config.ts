@@ -40,6 +40,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -68,18 +69,6 @@ const config: Config = {
         {
           type: 'docsVersionDropdown',
         },
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'getStartedSidebar',
-        //   position: 'left',
-        //   label: 'Get started',
-        // },
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'guideSidebar',
-        //   position: 'left',
-        //   label: 'Guide',
-        // },
         {
           href: 'https://github.com/widy-fun/widy',
           label: 'GitHub',
