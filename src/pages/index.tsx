@@ -8,7 +8,7 @@ export default function Home(): ReactNode {
   const history = useHistory();
 
   useEffect(() => {
-    history.replace('/docs/get-started/introduction');
+    history.replace('/get-started/introduction');
   }, [history]);
 
   return null;
